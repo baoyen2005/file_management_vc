@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_file"
+        android:icon="@drawable/ic_file"
+        android:title="@string/files_manager_title" />
+
+    <item
+        android:id="@+id/ic_tool"
+        android:icon="@drawable/ic_tool"
+        android:title="@string/tool_title" />
+</menu>

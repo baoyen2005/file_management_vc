@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/save_title_all_caps">
+        <menu>
+            <item
+                android:id="@+id/menu_home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="@string/home_title" />
+            <item
+                android:id="@+id/external_saving"
+                android:icon="@drawable/ic_external_saving"
+                android:title="@string/external_storage_title" />
+            <item
+                android:id="@+id/phone_storage"
+                android:icon="@drawable/ic_baseline_phone_android_24"
+                android:title="@string/phone_storage" />
+
+            <item
+                android:id="@+id/tool"
+                android:icon="@drawable/ic_baseline_verified_24"
+                android:title="@string/tool_title" />
+        </menu>
+    </item>
+
+    <item android:title="@string/setting_title_all_caps">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/setting_title" />
+        </menu>
+    </item>
+
+    <item android:title="@string/type_title_all_caps">
+        <menu>
+            <item
+                android:id="@+id/photo"
+                android:icon="@drawable/ic_baseline_photo_24"
+                android:title="@string/images_title" />
+            <item
+                android:id="@+id/video"
+                android:icon="@drawable/ic_baseline_videocam_24"
+                android:title="@string/videos_title" />
+            <item
+                android:id="@+id/music"
+                android:icon="@drawable/ic_baseline_music_note_24"
+                android:title="@string/music_title" />
+            <item
+                android:id="@+id/document"
+                android:icon="@drawable/ic_baseline_file_copy_24"
+                android:title="@string/documents_title" />
+            <item
+                android:id="@+id/apk"
+                android:icon="@drawable/apk_icon"
+                android:title="@string/apks_title" />
+        </menu>
+    </item>
+</menu>
